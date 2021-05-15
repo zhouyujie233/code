@@ -7,8 +7,8 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        primaryStage.setTitle("");
-        primaryStage.setScene(new Scene(new Pane(), 300, 275));
+        primaryStage.setTitle("标题");
+        primaryStage.setScene(new Scene(new Pane(), 300, 300));
         primaryStage.show();
     }
 
